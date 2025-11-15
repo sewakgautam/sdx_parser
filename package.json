@@ -1,12 +1,22 @@
 {
-  "name": "sdx",
-  "version": "1.0.0",
-  "description": "Parser for the .sgx (Sewak Gautam eXtended) data format",
+  "name": "sdx_parser",
+  "version": "1.0.1",
+  "description": "A simple, readable alternative to JSON for tabular data. Parse SGX format into JavaScript objects.",
   "main": "index.js",
-  "keywords": ["sgx", "data", "parser", "json", "custom-format"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "test": "node test.js"
   },
   "author": "Sewak Gautam",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sewakgautam/sgx_parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sewakgautam/sgx_parser/issues"
+  },
+  "homepage": "https://github.com/sewakgautam/sgx_parser#readme"
 }

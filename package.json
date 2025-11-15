@@ -1,0 +1,12 @@
+{
+  "name": "sdx",
+  "version": "1.0.0",
+  "description": "Parser for the .sgx (Sewak Gautam eXtended) data format",
+  "main": "index.js",
+  "keywords": ["sgx", "data", "parser", "json", "custom-format"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sewak Gautam",
+  "license": "MIT"
+}

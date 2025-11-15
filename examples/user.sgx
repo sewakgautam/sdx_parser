@@ -1,0 +1,4 @@
+users:
+    id, name, email
+    1, sk, sk@mail.com
+    2, sk2, sk2@mail.com

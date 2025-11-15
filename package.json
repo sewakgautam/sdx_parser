@@ -3,6 +3,8 @@
   "version": "1.0.3",
   "description": "A simple, readable alternative to JSON for tabular data. Parse SGX format into JavaScript objects.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": ["parser", "json", "data", "table"," sdx", "sdx parser"],
   "scripts": {
     "test": "node test.js"
   },
@@ -18,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/sewakgautam/sgx_parser/issues"
   },
-  "homepage": "https://github.com/sewakgautam/sgx_parser#readme"
+  "homepage": "https://github.com/sewakgautam/sgx_parser#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
 }

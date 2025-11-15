@@ -1,5 +1,4 @@
-// parser.ts
-interface ParsedData {
+export interface ParsedData {
   [key: string]: Record<string, any>[];
 }
 
@@ -26,8 +25,8 @@ export function parseSGX(text: string): ParsedData {
     headers.forEach((key, idx) => {
       let value: string | number = row[idx];
 
-      // convert numbers
-      if (!isNaN(Number(value))) {
+      // Only convert to number if it's not empty and is actually a number
+      if (value !== '' && !isNaN(Number(value))) {
         value = Number(value);
       }
 

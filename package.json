@@ -1,6 +1,6 @@
 {
   "name": "sdx-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple, readable alternative to JSON for tabular data. Parse SGX format into JavaScript objects.",
   "main": "index.js",
   "scripts": {
